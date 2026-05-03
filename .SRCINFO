@@ -1,0 +1,48 @@
+pkgbase = local-aur-meta
+	pkgdesc = Meta-package for make and check deps of locally built packages
+	pkgver = 20260504.1
+	pkgrel = 1
+	url = https://github.com/ChemistMikeLam/local-aur-meta
+	arch = any
+	license = 0BSD
+
+pkgname = local-aur-meta-elan-lean
+	pkgdesc = Meta-package for make deps of elan-lean
+	url = https://aur.archlinux.org/packages/elan-lean
+	depends = elan-lean
+	depends = cargo
+
+pkgname = local-aur-meta-ibus-mozc-ut
+	pkgdesc = Meta-package for make deps of ibus-mozc-ut
+	url = https://github.com/ChemistMikeLam/ibus-mozc-ut
+	depends = ibus-mozc-ut
+	depends = git
+	depends = mold
+	depends = python
+
+pkgname = local-aur-meta-miktex
+	pkgdesc = Meta-package for make deps of miktex
+	url = https://aur.archlinux.org/packages/miktex
+	depends = miktex
+	depends = cmake
+	depends = coreutils
+	depends = fop
+	depends = sed
+	depends = libxslt
+	depends = qt6-tools
+	depends = boost
+
+pkgname = local-aur-meta-xdg-desktop-portal-termfilechooser-hunkyburrito-git
+	pkgdesc = Meta-pacakge for make deps of xdg-desktop-portal-termfilechooser-hunkyburrito-git
+	url = https://aur.archlinux.org/packages/xdg-desktop-portal-termfilechooser-hunkyburrito-git
+	depends = xdg-desktop-portal-termfilechooser-hunkyburrito-git
+	depends = meson
+	depends = scdoc
+	depends = git
+
+pkgname = local-aur-meta-xdg-terminal-exec
+	pkgdesc = Meta-package for make and check deps of xdg-terminal-exec
+	url = https://aur.archlinux.org/packages/xdg-terminal-exec
+	depends = xdg-terminal-exec
+	depends = scdoc
+	depends = bats
