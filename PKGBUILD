@@ -2,7 +2,7 @@
 
 # Common metadata part
 pkgbase=local-aur-meta
-_pkg_date=20260504
+_pkg_date=20260630
 _pkg_ver_of_day=1
 pkgver="${_pkg_date}.${_pkg_ver_of_day}"
 pkgrel=1
@@ -48,7 +48,6 @@ package_local-aur-meta-ibus-mozc-ut() {
 
         # Make deps
         'git'
-        'mold'
         'python'
     )
 }
