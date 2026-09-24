@@ -2,7 +2,7 @@
 
 # Common metadata part
 pkgbase=local-aur-meta
-_pkg_date=20260630
+_pkg_date=20260924
 _pkg_ver_of_day=1
 pkgver="${_pkg_date}.${_pkg_ver_of_day}"
 pkgrel=1
@@ -17,7 +17,6 @@ pkgname=(
     'local-aur-meta-ibus-mozc-ut'
     'local-aur-meta-miktex'
     'local-aur-meta-xdg-desktop-portal-termfilechooser-hunkyburrito-git'
-    'local-aur-meta-xdg-terminal-exec'
 )
 
 # Each package's metadata
@@ -79,20 +78,6 @@ package_local-aur-meta-xdg-desktop-portal-termfilechooser-hunkyburrito-git() {
         'meson'
         'scdoc'
         'git'
-    )
-}
-
-package_local-aur-meta-xdg-terminal-exec() {
-    pkgdesc='Meta-package for make and check deps of xdg-terminal-exec'
-    url='https://aur.archlinux.org/packages/xdg-terminal-exec'
-    depends=(
-        'xdg-terminal-exec'
-
-        # Make deps
-        'scdoc'
-
-        # Check deps
-        'bats'
     )
 }
 

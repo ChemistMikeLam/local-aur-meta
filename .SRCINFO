@@ -1,6 +1,6 @@
 pkgbase = local-aur-meta
 	pkgdesc = Meta-package for make and check deps of locally built packages
-	pkgver = 20260630.1
+	pkgver = 20260924.1
 	pkgrel = 1
 	url = https://github.com/ChemistMikeLam/local-aur-meta
 	arch = any
@@ -38,10 +38,3 @@ pkgname = local-aur-meta-xdg-desktop-portal-termfilechooser-hunkyburrito-git
 	depends = meson
 	depends = scdoc
 	depends = git
-
-pkgname = local-aur-meta-xdg-terminal-exec
-	pkgdesc = Meta-package for make and check deps of xdg-terminal-exec
-	url = https://aur.archlinux.org/packages/xdg-terminal-exec
-	depends = xdg-terminal-exec
-	depends = scdoc
-	depends = bats
